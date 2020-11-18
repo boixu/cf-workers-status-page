@@ -28,6 +28,7 @@ monitors:
     url: 'https://tv.home31.pw'
     method: GET
     expectStatus: 200
+    followRedirect: true
 
   - id: register.home31.pw
     name: register.home31.pw
