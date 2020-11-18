@@ -50,6 +50,7 @@ monitors:
     url: 'https://cloud.home31.pw/'
     method: GET
     expectStatus: 200
+    followRedirect: true
     
   - id: wiki.boixu.com
     name: wiki.boixu.com
@@ -78,6 +79,7 @@ monitors:
     url: 'https://matrix.home31.pw/'
     method: GET
     expectStatus: 200
+    followRedirect: true
     
   - id: git.home31.pw
     name: git.home31.pw
@@ -85,6 +87,7 @@ monitors:
     url: 'https://git.home31.pw/'
     method: GET
     expectStatus: 200
+    followRedirect: true
     
   - id: dash.home31.pw
     name: dash.home31.pw
