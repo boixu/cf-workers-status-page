@@ -103,3 +103,10 @@ monitors:
     url: 'https://pass.home31.pw/'
     method: GET
     expectStatus: 200
+ 
+  - id: url.home31.pw
+    name: url.home31.pw
+    description: 'URL shortener'
+    url: 'https://url.home31.pw/admin/'
+    method: GET
+    expectStatus: 200
