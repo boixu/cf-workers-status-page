@@ -97,10 +97,10 @@ monitors:
     method: GET
     expectStatus: 200
     
-  - id: pass.home31.pw
-    name: pass.home31.pw
+  - id: pass.boixu.xom
+    name: pass.boixu.com
     description: 'Bitwarden password manager'
-    url: 'https://pass.home31.pw/'
+    url: 'https://pass.boixu.com/'
     method: GET
     expectStatus: 200
  
