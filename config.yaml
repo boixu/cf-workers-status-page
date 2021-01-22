@@ -110,3 +110,10 @@ monitors:
     url: 'https://url.home31.pw/admin/'
     method: GET
     expectStatus: 200
+    
+  - id: transfer.boixu.com
+    name: transfer.boixu.com
+    description: 'Simple encrypted file transfer'
+    url: 'https://transfer.boixu.com/'
+    method: GET
+    expectStatus: 200
