@@ -53,13 +53,6 @@ monitors:
     expectStatus: 200
     followRedirect: true
     
-  - id: wiki.boixu.com
-    name: wiki.boixu.com
-    description: 'Wiki page'
-    url: 'https://wiki.boixu.com/'
-    method: GET
-    expectStatus: 200
-    
   - id: bin.home31.pw
     name: bin.home31.pw
     description: 'Pastebin'
