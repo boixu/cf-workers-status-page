@@ -59,21 +59,6 @@ monitors:
     url: 'https://bin.home31.pw/'
     method: GET
     expectStatus: 200
-
-  - id: chat.home31.pw
-    name: chat.home31.pw
-    description: 'Matrix frontend'
-    url: 'https://chat.home31.pw/'
-    method: GET
-    expectStatus: 200
-    
-  - id: matrix.home31.pw
-    name: matrix.home31.pw
-    description: 'Federated communication server'
-    url: 'https://matrix.home31.pw/'
-    method: GET
-    expectStatus: 200
-    followRedirect: true
     
   - id: git.home31.pw
     name: git.home31.pw
