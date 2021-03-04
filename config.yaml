@@ -30,13 +30,6 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: true
-
-  - id: register.home31.pw
-    name: register.home31.pw
-    description: 'Register to use the tv streaming service'
-    url: 'https://register.home31.pw/'
-    method: GET
-    expectStatus: 200
     
   - id: ombi.home31.pw
     name: ombi.home31.pw
