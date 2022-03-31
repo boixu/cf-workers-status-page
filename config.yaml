@@ -46,13 +46,6 @@ monitors:
     expectStatus: 200
     followRedirect: true
     
-  - id: bin.home31.pw
-    name: bin.home31.pw
-    description: 'Pastebin'
-    url: 'https://bin.home31.pw/'
-    method: GET
-    expectStatus: 200
-    
   - id: git.home31.pw
     name: git.home31.pw
     description: 'Gitlab instance'
@@ -72,13 +65,6 @@ monitors:
     name: pass.home31.pw
     description: 'Bitwarden password manager'
     url: 'https://pass.home31.pw/'
-    method: GET
-    expectStatus: 200
-    
-  - id: url.home31.pw
-    name: url.home31.pw
-    description: 'URL shortener'
-    url: 'https://url.home31.pw/admin/'
     method: GET
     expectStatus: 200
 
