@@ -15,10 +15,10 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: mail.home31.pw # unique identifier
-    name: mail.home31.pw
+  - id: webmail.home31.pw # unique identifier
+    name: webmail.home31.pw
     description: 'Email server' # default=empty
-    url: 'https://mail.home31.pw/' # URL to fetch
+    url: 'https://webmail.home31.pw/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
