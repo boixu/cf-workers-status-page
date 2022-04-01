@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://status.home31.pw' # used for Slack messages.
+  url: 'https://status.home31.pw' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 30 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -42,14 +42,6 @@ monitors:
     name: cloud.home31.pw
     description: 'Cloud storage'
     url: 'https://cloud.home31.pw/'
-    method: GET
-    expectStatus: 200
-    followRedirect: true
-    
-  - id: git.home31.pw
-    name: git.home31.pw
-    description: 'Gitlab instance'
-    url: 'https://git.home31.pw/'
     method: GET
     expectStatus: 200
     followRedirect: true
