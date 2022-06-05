@@ -10,7 +10,7 @@ Monitor your websites, showcase status including daily history, and get Slack no
 
 You'll need a [Cloudflare Workers account](https://dash.cloudflare.com/sign-up/workers) with
 
-- A workers domain set up
+- A workers domain set up.
 - The Workers Bundled subscription \($5/mo\)
   - [It works with Workers Free!](https://blog.cloudflare.com/workers-kv-free-tier/) Check [more info](#workers-kv-free-tier) on how to run on Workers Free.
 - Some websites/APIs to watch 🙂
